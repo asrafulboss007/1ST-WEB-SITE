@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 240, 240);
+     margin-bottom: 100px;
+     margin-top: 10px;
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: rgb(175, 70, 10);
+   text-shadow: 5px 3px 20px rgb(104, 98, 98);
+}
+
+
+.half-width{
+margin-left: 5%;
+width: 40%;
+float: left;
+padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.facebook{
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    background-color: rgb(59, 89, 152);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hire-me{
+    background-image: url(picture/header-bg.png);
+    background-repeat: no-repeat;
+    
+}
+h3{
+    color: rgb(97, 8, 8);
+}
+.student{
+    background-image: url("picture/biography-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.CV{
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.half-width-text{
+    border: 1px solid rgb(70, 2, 2);
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgb(124, 255, 255);
+     background-image: linear-gradient(blue,aqua, pink);
+     text-align: center;
+     border-top: 8px solid rgb(70, 2, 2);
+}
+section{
+    height: 599px;
+    padding-bottom: 100px;
+};
+
