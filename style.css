@@ -1,10 +1,6 @@
 body{
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(240, 240, 240);
-     margin-bottom: 100px;
-     margin-top: 10px;
-h1{
     font-size: 50px;
 }
 .name-highlight{
@@ -32,9 +28,10 @@ padding: 2%;
 }
 
 .hire-me{
-    background-image: url(picture/header-bg.png);
+    background-image: url("picture/header-bg.png");
+    height: 500px;
     background-repeat: no-repeat;
-    
+
 }
 h3{
     color: rgb(97, 8, 8);
@@ -42,6 +39,8 @@ h3{
 .student{
     background-image: url("picture/biography-bg.png");
     background-repeat: no-repeat;
+    height: 500px;
+    
     
 }
 .CV{
@@ -54,19 +53,59 @@ h3{
    
 }
 .half-width-text{
-    border: 1px solid rgb(70, 2, 2);
     width: 40%;
     float: left;
     margin-left: 5%;
     padding: 2%;
-    border-radius: 10px;
-    background-color: rgb(124, 255, 255);
-     background-image: linear-gradient(blue,aqua, pink);
-     text-align: center;
-     border-top: 8px solid rgb(70, 2, 2);
+       font-size: 20px;  
 }
 section{
     height: 599px;
     padding-bottom: 100px;
-};
+}
+
+.one-third{
+    width: 22%;
+    float: left;
+    padding: 2%;
+    margin: 3%;
+
+
+}
+
+.one-third img{
+    width: 100%;
+}
+
+
+.letest-project{
+background-image: url("picture/footer-bg.png");
+background-repeat: no-repeat;
+height: 500px;
+
+}
+.center{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(175, 70, 10);
+}
+#something{
+   font-size: 60px;
+}
+h6{
+    font-size: 30px;
+    text-align: center;
+}
+
+.last-div{
+    border:1px solid rgb(175, 70, 10);
+    text-align: center;
+   margin: 20%;
+   background-color: rgb(153, 112, 0);
+   border-radius: 20px;
+   
+   color: white;
+   height: 200px;
+}
 
